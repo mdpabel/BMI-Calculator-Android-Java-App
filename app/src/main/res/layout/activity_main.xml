@@ -5,28 +5,25 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/tv1"
-        android:layout_width="124dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:paddingLeft="15dp"
-        android:paddingTop="40dp"
-        android:shadowColor="@android:color/black"
-        android:shadowDx="4"
-        android:shadowDy="4"
-        android:text="BMI"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@android:color/white"
-        android:textSize="50sp"
-        android:typeface="serif" />
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="100sp"
+        android:background="#03DAC5"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Calculate your BMI"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Calculator"
-        android:textColor="@android:color/white"
+        android:layout_marginTop="15sp"
+        android:text="Find out if you have a healthy weight"
+        android:textColor="#03DAC5"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -38,7 +35,7 @@
         android:paddingTop="30dp"
         android:text="WEIGHT (KG)"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@android:color/white"
+        android:textColor="#03DAC5"
         android:textStyle="bold|italic"
         android:typeface="serif" />
 
@@ -63,7 +60,7 @@
         android:paddingTop="30dp"
         android:text="HEIGHT (CM)"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@android:color/white"
+        android:textColor="#03DAC5"
         android:textStyle="bold|italic"
         android:typeface="serif" />
 
@@ -100,5 +97,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@android:color/holo_orange_dark"/>
+
+
 
 </LinearLayout>
